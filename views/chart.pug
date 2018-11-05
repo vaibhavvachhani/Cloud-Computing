@@ -1,0 +1,58 @@
+doctype html  
+html(lang='en')  
+ head
+   title= heading
+   link(rel='stylesheet', href='style1.css')    
+   script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js")
+ body
+   h1
+      | Words used to describe 
+      i #{address} 
+      | on 
+      i #{query}
+   p
+      | #{words}
+   h3
+      | #{result}*
+   p#note 
+      | *A positive value means people feel more positive about the current set of location and query than negative and vice versa
+   #container
+    canvas#myChart
+    script(type='text/javascript').
+        var ctx = document.getElementById("myChart");
+        var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+        labels: ["Negative words", "Positive words"],
+        datasets: [{
+        label: '# of words',
+        data: [#{negative}, #{positive}],
+        backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+        ],
+        borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(75, 192, 192, 1)',
+        ],
+        borderWidth: 1
+        }]
+        },
+        options: {
+        scales: {
+        yAxes: [{
+        ticks: {
+        beginAtZero:true
+        }
+        }]
+        }
+        }
+        });
+   .footer
+      p
+        | CAB432 assignment 1 API MASHUP APPLICATION
+        br
+        |         Name: Vaibhav Vachhani
+        br
+        |         Student number: N9796134
+        br     

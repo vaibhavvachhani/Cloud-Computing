@@ -1,0 +1,26 @@
+.container{
+    color: #9b2f1c;
+
+}
+.container input {
+  float: middle;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #f7b824;
+    background-color: #444646;
+    text-align: center;
+}
+
+h2	{
+    color: #5d5d5d;
+    font-family: arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}

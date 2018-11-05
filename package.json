@@ -1,0 +1,25 @@
+{
+  "name": "node_workspace",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav Vachhani",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^1.2.0",
+    "@google-cloud/storage": "^2.0.3",
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "chart.js": "^2.7.2",
+    "express": "^4.16.3",
+    "node-geocoder": "^3.22.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "sentiment": "^5.0.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

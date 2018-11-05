@@ -1,0 +1,29 @@
+#container {width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444646;
+    color: white;
+    text-align: center;
+    }
+h3 {
+    color: #0a436d;
+    font-size: 17px;
+}
+p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f7b824;
+}
+#note {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    
+}
